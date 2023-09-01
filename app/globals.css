@@ -1,8 +1,29 @@
-/* PostPages.module.css */
-.container {
-    padding: 20px;
-  }
+/* */
+.center-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Ajusta la altura al 100% del viewport */
+}
   
   .title {
     font-size: 24px;
+  }
+
+  h1{
+
+color: orange;
+
+  }
+  body { /*el color de fondo de la pagina*/
+    
+    background-color: #33f0d7; 
+  }
+
+
+
+  .cuadrado-con-linea {
+    width: 1000px; /* Ancho del cuadrado */
+    height: 250px; /* Alto del cuadrado (igual que el ancho para hacerlo cuadrado) */
+    border: 2px solid #000; /* Grosor de la línea y color en color black*/
   }
